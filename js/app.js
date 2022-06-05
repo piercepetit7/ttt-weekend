@@ -63,7 +63,7 @@ if (square === 1) {
 } else if (square === null){
     squareEls[index].textContent = ''
 }
-    })
+})
 if(winner === null) {
     if (turn === 1) {
         messageEl.textContent = "It is player X's turn"
@@ -101,10 +101,10 @@ function getWinner() {
         winner = 'O'
         return
     } else if (board.includes(null) === false){
-    winner =  'T'
-    return
+        winner =  'T'
+        return
     }else {
-    winner = null
+        winner = null
     }
     } 
 } 
